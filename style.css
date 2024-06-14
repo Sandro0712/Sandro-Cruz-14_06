@@ -1,0 +1,204 @@
+* {
+  margin: auto;
+}
+
+body {
+  font-family: sans-serif;
+  padding: auto;
+  margin-top: 25px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.artigo {
+  border: solid 5px black;
+  width: 800px;
+  position: relative;
+}
+
+.valor {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.shipping {
+  font-size: 12px;
+  color: #777;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.canvas {
+  padding-bottom: 15px;
+}
+
+.infromation {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.produto {
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+ul {
+  list-style: square;
+}
+
+li {
+  padding: 10px;
+  margin-left: -20px;
+}
+
+.cart:hover {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #000;
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: solid 2px black;
+  width: 800px;
+}
+
+.cart {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+  background-color: #000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border: solid 2px black;
+  width: 800px;
+}
+
+/*button {
+  border: solid 2px black;
+  width: 800px;
+}*/
+
+/*esta é uma das formas que eu consegui chegar no resultado*/
+/*
+h1 {
+  position: relative;
+}
+h1::after {
+  content: "sale";
+  font-size: 15px;
+  color: white;
+  background-color: red;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: 780px;
+  display: inline-block;
+}
+*/
+
+/*está é a forma que o professor chegou*/
+
+.sale {
+  text-transform: uppercase;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 7px 15px;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -34px;
+}
+
+/*Esta foi a forma como eu fiz o squadrados*/
+
+/*
+div {
+  display: flex;
+  margin: 0 10px;
+}
+
+.formatos {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}*/
+
+/*
+.quadrado {
+  width: 25px;
+  height: 25px;
+  background-color: aqua;
+}*/
+
+/*
+.um {
+  width: 25px;
+  height: 25px;
+  background-color: blue;
+}
+.dois {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+}
+.tres {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+}
+.quatro {
+  width: 25px;
+  height: 25px;
+  background-color: aqua;
+}
+.cinco {
+  width: 25px;
+  height: 25px;
+  background-color: yellow;
+}
+.seis {
+  width: 25px;
+  height: 25px;
+  background-color: yellowgreen;
+}
+*/
+
+/*Está foi a forma como o professor fez os quadrados*/
+
+.color {
+  background-color: #000;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: blue;
+}
+.color-red {
+  background-color: red;
+}
+.color-yellow {
+  background-color: yellow;
+}
+.color-green {
+  background-color: green;
+}
+.color-brown {
+  background-color: brown;
+}
